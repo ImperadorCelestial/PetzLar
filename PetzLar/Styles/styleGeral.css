@@ -1,0 +1,152 @@
+body 
+  {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /*Fundo da tela*/
+    color: #000000; /*Cor das fontes ("Escolha um animal" ou "Cadastro"*/
+  }
+
+header 
+  {
+    background-color: #f7f7f7; /*Muda a fita superior do site*/
+    backdrop-filter: blur(5px);
+    padding: 1px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(95, 95, 95, 0.8);
+    display: flex;
+    justify-content: space-around;
+  }
+
+nav ul   /*Os títulos da página (home, adoção e cadastro)*/
+  {   
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+nav ul li a /*A cor dos títulos o que da 'corpo' para eles*/
+  {
+    color: #ff6200; 
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  /* ------------------------------------------------ Botões do header -------------------------------------------- */
+
+.logo-link /*O botão de home*/
+  {
+    font-size: 30px;
+    font-weight: bold;
+    color: #696cff;
+    text-decoration: none;
+    margin-right: 800px;
+    margin-left: 80px;
+    font-family: Cursive;
+    text-shadow: 2px 4px 8px rgb(255, 255, 255);
+  }
+
+.achado /*O botão de "Achei um Pet"*/
+  {
+    display: flex;
+    margin: 1px;
+    border: 3px solid; 
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #F9A870;
+    color: #ffffff;
+    border-color: #F9A870;
+    transition: transform 0.3s ease;
+  }
+
+.achado:hover  /*animação do botão */
+  {
+    transform: scale(1.1);
+  }
+
+.adot /*Botão de adotar um pet*/
+  {
+    display: flex;
+    border: 3px solid; 
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #F9A870;
+    color: #ffffff;
+    border-color: #F9A870;
+    transition: transform 0.3s ease;
+    margin-left: 30px;
+  }
+
+.adot:hover  /*animação do botão*/
+  {
+    transform: scale(1.1);
+  }
+
+.cad /*Botão de entrar*/
+  {
+    display: flex;
+    justify-content: flex-start;
+    border: 3px solid;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #F9A870;
+    color: #ffffff;
+    border-color: #F9A870;
+    transition: transform 0.3s ease;
+    margin-left: 30px;
+  }
+
+.cad:hover  /*animação do botão*/
+  {
+    transform: scale(1.1);
+  }
+
+  /* ------------------------------------------------- box ------------------------------------------- */
+
+form /*A distância e a direção dos botões dentro de box*/
+  {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+form input, form button /*Tamanho das abas de digitação*/
+  {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+
+  /* ---------------------------------------------- Fontes --------------------------------------------- */
+
+h1 
+  {
+    font-family: 'Space Mono', monospace;
+    font-weight: 300;
+    color: #000000;
+    text-shadow: 2px 4px 8px rgb(255, 255, 255);
+  }
+
+h2
+  {
+    font-family: 'Space Mono', monospace;
+    font-weight: 300;
+    color: #000000;
+  }
+
+h3
+  {
+    font-family: 'Space Mono', monospace;
+    font-weight: 300;
+    color: #000000;
+  }
+
+  
+  
+
+
+
+
+
+

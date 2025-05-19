@@ -1,0 +1,113 @@
+.acord
+  {
+    background-image: url(patasBorradas.png);
+  }
+
+section /*O tamanho e a distancia entre as box de animais*/
+  {
+    padding: 40px 20px;
+    max-width: 300px;
+    margin: auto;
+  }
+
+#listaAnimais
+  {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+.animal-card 
+  {
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    background-color: #000000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+.animal-card img 
+  {
+    max-width: 100%;
+    border-radius: 4px;
+  }
+
+.galeria 
+  {
+    display:inline-block;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+    position: relative;
+    left:80px;
+  }
+  
+.animal 
+  {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s;
+    margin: 40px;
+  }
+  
+.animal:hover 
+  {
+    transform: scale(1.03);
+  }
+  
+.animal img 
+  {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+   
+  }
+  
+.info 
+  {
+    padding: 10px;
+  }
+  
+.info h3 
+  {
+    margin-top: 0;
+    color: #d2691e;
+  }
+  
+.info p 
+  {
+    font-size: 14px;
+    color: #555;
+  }
+  
+button 
+  {
+    background-color: #ff9900;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+footer 
+  {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffe5b4;
+    font-size: 14px;
+    color: #4d3200;
+  }
+
+  .galeria
+  {
+    display: inline block;
+    justify-content: center;
+  }

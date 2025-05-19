@@ -1,0 +1,45 @@
+.index
+  {
+    background-image: url(patasBorradas.png);
+  }
+
+  /*------------------------------------ Título Principal*/
+
+  .titulo-duplo
+{
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* espaçamento entre os h1 */
+  align-items: center;
+}
+
+.titulo-duplo h1 
+{
+  margin: 0;
+}
+
+  .box
+{
+  background-image: url(extendedDog.png);
+  background-size:1250px;
+  padding: 40;
+  border-radius: 20px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+  text-align: left;
+  width: 1250px;
+  height: 450px;
+  border: 5px solid;
+  border-color: white;
+}
+  
+  .h1box
+{
+  color: #ffffff;
+  font-family: Arial, sans-serif;;
+  font-size: 40px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+  text-shadow: 2px 4px 8px rgba(0, 0, 0, 1.0)
+}

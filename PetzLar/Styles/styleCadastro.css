@@ -1,0 +1,130 @@
+.cadbackground /*Imagem de fundo da aba*/
+  {
+    height: 100vh;
+    margin: 0;
+    background-image: url(patasBorradas.png);
+  }
+
+.two-box /*Junção das duas box*/
+  {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 410px;
+  }
+
+.form-box /*Box da tela de cadastro*/
+  {
+    width: 350px;
+    height: 100;
+    margin: 0px;
+    padding: 0px 0px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+    border-radius: 25px;
+    gap: 5px;
+    text-align: center;
+  }
+
+section /*O tamanho e a distancia entre as abas de cadastro e login*/
+  {
+    padding: 40px 20px;
+    max-width: 300px;
+    margin: auto;
+  }
+
+  .social-login /*div dos botões Google e Facebook*/
+  {
+    display: flex;
+    justify-content: space-between 1px;
+  }
+
+/* ------------------------------------------ Digitação ------------------------------------------ */
+
+
+.logcad /* Classe das labels*/ 
+  {
+    display: flex;
+    font-family: 'Space Mono', monospace;
+    font-weight: 500;
+    font-size: large;
+  }
+
+input  /*botão de cpf e senha*/
+  {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+  }
+
+/* -------------------------------------------- Botões ------------------------------------------ */
+
+.google-btn /*Botão de logar com Google*/
+  {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #444;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    font-size: 19px;
+    display:flow-root;
+    transition: transform 0.3s ease;
+  }
+
+.google-btn:hover /*Animação do botão*/
+  {
+    transform: scale(1.03);
+  }
+  
+.facebook-btn  /*Botão de logar com Facebook*/
+  {
+    background-color: #4267B2;
+    color: white;
+    padding: 10px 8px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.6);
+    margin: 5px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    font-size: 18px;
+    display:list-item;
+    transition: transform 0.3s ease;
+  }
+
+.facebook-btn:hover  /*Animação do botão*/
+  {
+    transform: scale(1.03);
+  }
+
+.submit-btn /*Botão de entrar*/
+  {
+    background-color: #333333;
+    border: 1px solid #252525;
+    color: #fff;
+    font-family: 'Space Mono', monospace;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px;
+    display:flexbox;
+    transition: transform 0.3s ease;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.8);
+  } 
+
+.submit-btn:hover
+  {
+    transform: scale(1.01);
+  }
+
+  
+
+  
+
+  
