@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Entrar</title>
-    <link rel="stylesheet" href="Styles/styleGeral.css">
+    <title>Adoção Responsável</title>
     <link rel="stylesheet" href="Styles/styleCadastro.css">
-    <link rel="stylesheet" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="Styles/styleGeral.css">
 
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet">
     
@@ -37,11 +36,11 @@
     <div class="form-box">
       <section id="cadastro">
           <center>
-              <h2 class="h2">Entre na sua conta</h2>
+              <h2>Entre na sua conta</h2>
           </center>
         <form id="formCadastro">
-          <label class="logcad">CPF</label>
-          <input type="text" id="cpf" required>
+          <label class="logcad" id="cpf">CPF</label>
+          <input type="text" required id="cpf">
           <label class="logcad">Senha</label>
           <input type="password" required>
           <div class="social-login">
@@ -54,7 +53,7 @@
                 Facebook
               </button>
           </div>
-          <button type="button" class="submit-btn">Entrar</button>
+          <button type="submit" class="submit-btn">Entrar</button>
         </form>
       </section>
     </div>
@@ -62,33 +61,40 @@
 
     <div class="form-box">
       <section id="cadastro">
+        
           <center>
               <h2>Faça seu cadastro</h2>
           </center>
-        <form id="formCadastro">
-          <label class="logcad">Qual o seu nome?</label>
-          <input type="text" required>
-          <label class="logcad">CPF</label>
-          <input type="text" id="cpf" required>
-          <div class="social-login">
-              <button class="google-btn">
-                <img src="img/google.png" alt="Google logo" width="25" style="vertical-align: middle; margin-right: 8px;">
-                Google
-              </button>
-              <button class="facebook-btn">
-                <img src="img/facebook.png" alt="Facebook logo" width="30" style="vertical-align: middle; margin-right: 8px;">
-                Facebook
-              </button>
-          </div>
-          <button  type="button" class="submit-btn"; onclick="irparapaginacadastro()">Criar conta</button>
-        </form>
-      </section>
-    </div>
-    </div>
+   <form id="form">
+  <label class="logcad">Qual o seu nome?</label>
+  <input type="text" id="nome" name="nome" required>
 
-    <h2>Lista de Cadastros</h2>
-    <ul id="lista-cadastro"></ul>
+  <label class="logcad">CPF</label>
+  <input type="text" id="cpf" name="cpf" required>
 
- <script src="script.js"></script>
+  <div class="social-login">
+    <button type="button" class="google-btn">
+      <img src="img/google.png" alt="Google logo" width="25" style="vertical-align: middle; margin-right: 8px;">
+      Google
+    </button>
+    <button type="button" class="facebook-btn">
+      <img src="img/facebook.png" alt="Facebook logo" width="30" style="vertical-align: middle; margin-right: 8px;">
+      Facebook
+    </button>
+  </div>
+
+  <button  type="submit" class="submit-btn"; onclick="irparapaginacadastro()">Criar conta</button>
+</form>
+
+
+<div class="uli">
+<h2 class="h2-lista">Lista de Cadastros</h2>
+<ul id="lista-alimentos"></ul>
+</div>
+
+
+
+ <script src="script2.js"></script>
+ <script src="script2.js"></script>
 </body>
 </html>

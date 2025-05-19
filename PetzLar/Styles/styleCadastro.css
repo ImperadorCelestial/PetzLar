@@ -123,8 +123,21 @@ input  /*botão de cpf e senha*/
     transform: scale(1.01);
   }
 
-  
+  /*------------------------------------------------ Salvamento de cadastro ----------------------------------------------*/
 
-  
+  .uli li{
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 0%;
+  margin-top:20px;
+}
+.h2-lista{
+  margin-top: 0px;
+  background-color: #000;
+  color: #fff;
+  margin-left: 900px;
+  width: 270px;
+}
 
   
